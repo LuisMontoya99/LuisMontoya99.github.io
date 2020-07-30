@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Mi casa IOT</title>
+        <link rel="stylesheet" type="text/css" href="homeiot.css">
+	    <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-app.js"></script>
+	    <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-analytics.js"></script>
+	    <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-auth.js"></script>
+	    <script src="https://www.gstatic.com/firebasejs/7.17.0/firebase-database.js"></script>
+        <script src="homeiot.js"></script>
+        <meta charset="UTF-8"/>
+    </head>
+<body>
+    <header>Sistema de medición de variables de mi hogar</header>
+    <main>
+
+        <section id = HUM>
+            <h1>Humedad</h1>
+            <h2 id="humedad">0.0</h2>
+        </section>
+
+        <section id = TEMP>
+            <h1>Temperatura</h1>
+            <h2 id="temperatura">0.0</h2>
+        </section>
+
+        <section id = LIGHT>
+            <h1>Luz</h1>
+            <h2 id="luz">0.0</h2>
+        </section>
+
+        <section id = DIST>
+            <h1>Distancia</h1>
+            <h2 id="distancia">0.0</h2>
+        </section>
+
+        <section id = LED>
+            <h1>Estado LED</h1>
+            <h2 id="led">0.0</h2>
+        </section>
+
+        <section id="BUT">
+            <a href="#" class="rainbow-button" onclick="encender()" alt="Encender"></a>
+            <a href="#" class="rainbow-button" onclick="apagar()" alt="apagar"></a>
+        </section>
+    </main>
+</body>
+</html>

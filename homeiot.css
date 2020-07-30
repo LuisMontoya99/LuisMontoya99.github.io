@@ -1,0 +1,116 @@
+html *{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #0A000A;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+main {
+    height: 50em;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#HUM {
+    flex: 1;
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2020/06/20/night-tower-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#TEMP {
+    flex: 1;
+    background-image: url(https://wallpapershome.com/images/wallpapers/night-sky-3840x2160-5k-4k-wallpaper-stars-mountains-bridge-new-zealand-547.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+#LIGHT {
+    flex: 1;
+    background-image: url(https://i.pinimg.com/originals/fd/c0/1e/fdc01e235738e5ecbc84f3ddf58afac3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#DIST {
+    flex: 1;
+    background-image: url(https://images.hdqwalls.com/wallpapers/minimal-sunset-landscape-4k-w5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#LED {
+    flex: 1;
+    background-image: url(https://i.pinimg.com/originals/db/3a/68/db3a68f4a8f37e66dffb87436f9f3af4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#BUT {
+    flex: 1;
+    background-image: url(https://fondosmil.com/fondo/17010.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration:none;
+    color:#FFF;
+  }
+  .rainbow-button {
+    width:calc(10vw + 6px);
+    height:calc(4vw + 6px);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:1.5vw;
+    font-weight:bold;
+    margin: 10px;
+  }
+  .rainbow-button:after {
+    content:attr(alt);
+    width:10vw;
+    height:4vw;
+    background-color:#191919;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .rainbow-button:hover {
+    animation:slidebg 2s linear infinite;
+  }
+  
+  @keyframes slidebg {
+    to {
+      background-position:10vw;
+    }
+  }
